@@ -20,11 +20,11 @@ const Links = () => {
             <NavLink to={"/example"} className={styles.Link} activeClassName={styles.LinkActive} exact>
                 Example
             </NavLink>
-            <NavLink to={"/example-map"} className={styles.Link} activeClassName={styles.LinkActive} exact>
-                Example map
-            </NavLink>
             <NavLink to={"/example-map2"} className={styles.Link} activeClassName={styles.LinkActive} exact>
                 Example map2
+            </NavLink>
+            <NavLink to={"/example-dashboard"} className={styles.Link} activeClassName={styles.LinkActive} exact>
+                Example map & dashboard
             </NavLink>
         </>
     );

@@ -11,6 +11,7 @@ import Home from "./Home";
 import Example from './Example';
 import ExampleMap from './ExampleMap';
 import ExampleMap2 from './ExampleMap2';
+import ExampleDashboard from './ExampleDashboard';
 
 import styles from "./AppRouter.module.scss";
 
@@ -33,6 +34,7 @@ const AppRouter = () => {
                     <Route exact path="/example" component={Example} />
                     <Route exact path="/example-map" component={ExampleMap} />
                     <Route exact path="/example-map2" component={ExampleMap2} />
+                    <Route exact path="/example-dashboard" component={ExampleDashboard} />
                     <Route exact path="/welcome" component={Welcome} />
                     <Route exact path="/dashboard" component={() => <Page>Dashboard</Page>} />
                     <Route exact path="/login" component={Login} />

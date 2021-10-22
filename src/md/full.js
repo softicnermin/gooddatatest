@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-/* THIS FILE WAS AUTO-GENERATED USING CATALOG EXPORTER; YOU SHOULD NOT EDIT THIS FILE; GENERATE TIME: 2021-10-20T22:23:12.557Z; */
+/* THIS FILE WAS AUTO-GENERATED USING CATALOG EXPORTER; YOU SHOULD NOT EDIT THIS FILE; GENERATE TIME: 2021-10-22T07:00:44.153Z; */
 // @ts-ignore ignore unused imports here if they happen (e.g. when there is no measure in the workspace)
 import { newAttribute, newMeasure, idRef } from "@gooddata/sdk-model";
 /**
@@ -58,16 +58,16 @@ export const Region = newAttribute("customers.region");
 
 export const State = {
   /**
-   * Display Form Title: Location
-   * Display Form ID: customers.geo__state__location
-   */
-  Location: newAttribute("customers.geo__state__location")
-  /**
    * Display Form Title: State
    * Display Form ID: customers.state
    */
-  ,
   Default: newAttribute("customers.state")
+  /**
+   * Display Form Title: Location
+   * Display Form ID: customers.geo__state__location
+   */
+  ,
+  Location: newAttribute("customers.geo__state__location")
 };
 /**
  * Attribute Title: Order id
@@ -642,14 +642,14 @@ export const DateDatasets = {
 export const Insights = {
   /**
    * Insight Title: Insight1
-   * Insight ID: 97b680a1-1ebc-4dea-8c4f-6b771f8b38ac
+   * Insight ID: 0b24afff-142c-43fd-b985-34a7ab0a4585
    */
-  Insight1: "97b680a1-1ebc-4dea-8c4f-6b771f8b38ac"
+  Insight1: "0b24afff-142c-43fd-b985-34a7ab0a4585"
 };
 export const Dashboards = {
   /**
-   * Dashboard Title: Dash1
-   * Dashboard ID: 9abb1399-17ad-4cfb-bdc4-9197bc4910eb
+   * Dashboard Title: Dashboard1
+   * Dashboard ID: 8c9d840a-eaf0-4969-96ff-98531e7f02b0
    */
-  Dash1: "9abb1399-17ad-4cfb-bdc4-9197bc4910eb"
+  Dashboard1: "8c9d840a-eaf0-4969-96ff-98531e7f02b0"
 };

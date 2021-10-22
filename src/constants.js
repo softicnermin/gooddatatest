@@ -8,7 +8,10 @@ export const backend = "http://localhost:3000/";
 // The ID of workspace that is selected by default in the optional workspace picker component (located in the web
 // application header). It is also a default setting for script that refreshes MD data used by the application.
 // MD script shows list of available workspaces on backend in the case when the value is not set to any ID.
-export const workspace = "1a5cc2fe1ae848fb90d42960d45463f2";
+// export const workspace = "1a5cc2fe1ae848fb90d42960d45463f2";
+export const workspace = "5f05b3db198e4344b4ee9ff39a5c1f7e"; // office
+
+
 
 // RegExp used by optional workspace picker component (located in the web application header) to filter out
 // workspaces that should not be rendered to the application user. Only the workspaces with title that match

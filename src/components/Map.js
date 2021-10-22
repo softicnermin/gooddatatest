@@ -101,12 +101,19 @@ const Map = (props) => {
             if (features.length) {
                 const feature = features[0];
                 const popEst = feature.properties.pop_est;
-                console.log(popEst);
 
 
                 let list1 = ['Advertising', 'Event', 'Social'];
-                if(popEst > 20000000) {
+                if(popEst < 5000000) {
                     list1 = ['Advertising'];
+                } else if( popEst > 5000000 &&  popEst < 10000000 ) {
+                    list1 = ['Advertising', 'Web', 'Telephone'];
+                } else if( popEst > 10000000 &&  popEst < 30000000 ) {
+                    list1 = ['PR', 'Mobile'];
+                } else if( popEst > 30000000 &&  popEst < 100000000 ) {
+                    list1 = ['Email', 'Direct'];
+                } else {
+                    list1 = [];
                 }
 
                 props.getFeature(list1);
